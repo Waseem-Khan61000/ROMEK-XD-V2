@@ -21,8 +21,10 @@
       <img src="https://img.shields.io/github/stars/ROMEKTRICKS/ROMEK-XD-V2?style=social" alt="Stars">
     </td>
     <td>
-      <a href="https://whatsapp.com/channel/0029VakaPzeD38CV78dbGf0e">
-        <img src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F%E2%80%8D%20Join%20Our%20WhatsApp%20Channel%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB-green" alt="Join WhatsApp Channel" width="300">
+         </a>
+   <a href="https://whatsapp.com/channel/0029VakaPzeD38CV78dbGf0e" target="_blank">
+   <img alt="Join WhatsApp Channel" src="https://img.shields.io/badge/Join%20WhatsApp%20Channel-%23E9F54B?style=plastic&logo=whatsapp&logoColor=white" width="300">
+</a>
       </a>
     </td>
   </tr>
