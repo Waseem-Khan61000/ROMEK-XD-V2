@@ -53,7 +53,7 @@
 
 ## DEPLOYMENT METHODS
 3. ## Deploy to Koyeb ↓
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=romek-xd&repository=ROMEKTRICKS%2FROMEK-XD-V2&branch=main&builder=dockerfile&instance_type=free&env%5BSESSION_ID%5D=&env%5BAUTO_READ_STATUS%5D=true)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=romek-xd-v2&repository=ROMEKTRICKS%2FROMEK-XD-V2&branch=main&builder=dockerfile&instance_type=free&env%5BSESSION_ID%5D=&env%5BAUTO_READ_STATUS%5D=true)
 
 4. ## Deploy to RENDER ↓
 
