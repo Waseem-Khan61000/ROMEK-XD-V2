@@ -53,17 +53,6 @@
   <summary><strong>Show more</strong></summary>
 
 
----
-
-
-
-<a href="https://github.com/toge012345">
-  <img src="https://files.catbox.moe/rfowi7.jpg" width="200" height="200" alt="toge012345"/>
-</a>
-<p align="center"><strong>ROMEK-XD-V2</strong
-
----
-
 ## GitHub Deployment
 
 ```yaml
