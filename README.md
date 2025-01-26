@@ -28,7 +28,7 @@
     <img alt="Pair Code Login" src="https://img.shields.io/badge/🔑%20PAIR%20CODE%20LOGIN-%2300BFFF?style=for-the-badge&logo=link&logoColor=white" width="300">
   </a>  <hr style="border-top: 2px solid #3F00FF;">  <h3>3️⃣ Deployment Options</h3>  <h4>Deploy to Koyeb</h4>
   <a href="https://panel.solarhosting.cc" target="_blank">
-   <img alt="Solar Hosting Panel" src="https://img.shields.io/badge/☀️%20Access%20Solar%20Hosting-orange?style=for-the-badge&logo=internet-explorer&logoColor=white" width="300">
+   <img alt="Solar Hosting Panel" src="https://img.shields.io/badge/%20PANEL%20Solar%20Hosting-orange?style=for-the-badge&logo=internet-explorer&logoColor=white" width="300">
 </a>
 <a href="github.com/ROMEKTRICKS/ROMEK-XD-V2/archive/refs/heads/ main.zip" download>
    <img alt="Download File" src="https://img.shields.io/badge/⬇️%20Download%20File-blue?style=for-the-badge&logo=download&logoColor=white" width="300">
