@@ -26,9 +26,13 @@
   </a>  <hr style="border-top: 2px solid #3F00FF;">  <h3>2️⃣ (Pair Code )</h3>
   <a href="https://romex-pair-code.onrender.com/?" target="_blank">
     <img alt="Pair Code Login" src="https://img.shields.io/badge/🔑%20PAIR%20CODE%20LOGIN-%2300BFFF?style=for-the-badge&logo=link&logoColor=white" width="300">
-  </a>  <hr style="border-top: 2px solid #3F00FF;">  <h3>3️⃣ Deployment Options</h3>  <h4>Deploy to PANEL</h4>
-  <a href="https://panel.solarhosting.cc" target="_blank">
-   <img alt="Solar Hosting Panel" src="https://img.shields.io/badge/%20PANEL%20Solar%20Hosting-orange?style=for-the-badge&logo=internet-explorer&logoColor=white" width="300">
+  </a>  <hr style="border-top: 2px solid #3F00FF;">  <h3>3️⃣ Deployment Options</h3>  <h4>CREATE PANEL ACCOUNT</h4>
+  <a href="https://account.solarhosting.cc/login" target="_blank">
+   <img alt="Solar Hosting Panel" src="https://img.shields.io/badge/%20CREATE%20Solar%20ACCOUNT-pink?style=for-the-badge&logo=internet-explorer&logoColor=white" width="200">
+</a>
+
+    <a href="https://account.solarhosting.cc/" target="_blank">
+   <img alt="Solar Hosting Panel" src="https://img.shields.io/badge/%20PANEL%20Solar%20Hosting-pink?style=for-the-badge&logo=internet-explorer&logoColor=white" width="200">
 </a>
 <a href="https://raw.githubusercontent.com/ROMEKTRICKS/ROMEK-XD-V2/main/ROMEK-XD-V2.zip" download>
    <img src="https://img.shields.io/badge/📥%20Download%20from%20GitHub-blue?style=for-the-badge&logo=github&logoColor=white" alt="Download File">
