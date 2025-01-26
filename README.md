@@ -42,7 +42,7 @@
 
 2. **Deploy Using Session ID (Pair Code Login)**  
    <a href="https://moral-nert-romektricks-a02cb369.koyeb.app/?" target="_blank">
-      <img alt="Deploy with Session" src="https://img.shields.io/badge/%F0%9F%9A%80%20Deploy%20With%20Pair%20Code-yellow" width="400" height="50">
+      <img alt="Pair Code Login" src="https://img.shields.io/badge/🔗%20PAIR%20CODE%20LOGIN-%2300BFFF?style=for-the-badge&logo=link&logoColor=white" width="300">
    </a>
 
 ---
