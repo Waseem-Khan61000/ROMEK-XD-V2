@@ -27,8 +27,12 @@
   <a href="https://moral-nert-romektricks-a02cb369.koyeb.app/?" target="_blank">
     <img alt="Pair Code Login" src="https://img.shields.io/badge/🔑%20PAIR%20CODE%20LOGIN-%2300BFFF?style=for-the-badge&logo=link&logoColor=white" width="300">
   </a>  <hr style="border-top: 2px solid #3F00FF;">  <h3>3️⃣ Deployment Options</h3>  <h4>Deploy to Koyeb</h4>
-  <a href="https://app.koyeb.com/deploy?name=romek-xd-v2&repository=ROMEKTRICKS%2FROMEK-XD-V2&branch=main&builder=dockerfile&instance_type=free&env%5BSESSION_ID%5D=&env%5BAUTO_READ_STATUS%5D=true" target="_blank">
-    <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy to Koyeb">
+  <a href="https://panel.solarhosting.cc" target="_blank">
+   <img alt="Solar Hosting Panel" src="https://img.shields.io/badge/☀️%20Access%20Solar%20Hosting-orange?style=for-the-badge&logo=internet-explorer&logoColor=white" width="300">
+</a>
+<a href="github.com/ROMEKTRICKS/ROMEK-XD-V2/archive/refs/heads/ main.zip" download>
+   <img alt="Download File" src="https://img.shields.io/badge/⬇️%20Download%20File-blue?style=for-the-badge&logo=download&logoColor=white" width="300">
+</a>
   </a>  <h4>Deploy to Render</h4>
   <a href="https://dashboard.render.com/" target="_blank">
     <img src="https://telegra.ph/file/c15e952f017c10e12f431.jpg" alt="Deploy to Render" width="150" style="border-radius: 8px;">
