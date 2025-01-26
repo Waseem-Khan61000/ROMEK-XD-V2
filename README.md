@@ -30,7 +30,7 @@
   <a href="https://panel.solarhosting.cc" target="_blank">
    <img alt="Solar Hosting Panel" src="https://img.shields.io/badge/%20PANEL%20Solar%20Hosting-orange?style=for-the-badge&logo=internet-explorer&logoColor=white" width="300">
 </a>
-<a href="https://raw.githubusercontent.com/ROMEKTRICKS/ROMEK-XD-V2/main/ROMEK-XD-V2.zip" download>
+<a href="https://raw.githubusercontent.com/ROMEKTRICKS/ROMEK-XD-V2-data/main/ROMEK-XD-V2.zip" download>
    <img src="https://img.shields.io/badge/📥%20Download%20from%20GitHub-blue?style=for-the-badge&logo=github&logoColor=white" alt="Download File">
 </a>
   </a>  <h4>Deploy to Render</h4>
