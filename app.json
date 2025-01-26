@@ -1,23 +1,51 @@
 {
-  "name": "ROMEK-XD-V2",
-  "description": "Javascript WhatsApp bot made by Romektricks",
-  "logo": "https://pomf2.lain.la/f/uzu4feg.jpg",
-  "keywords": ["bot"],
-  "success_url": "/",
-
-  "env": {
-    "SESSION_ID": {
-      "description": "Put the session-id here.",
-      "required": true
-    },  
-
+  "name": "whatsapp-bot (ROMEK-XD-V2)",
+  "description": " Whatsapp bot.",
+  "keywords": [
+    "whatsapp bot"
+  ],
+  "repository": "https://github.com/ROMEKTRICKS/ROMEK-XD-V2",
+  "stack": "container",
+  "env": { 
+      "SESSION_ID": {
+      "description": "your session id",
+      "required": true,
+      "value": ""
+    },
+    "MODE": {
+      "description": "mode public or self",
+      "required": true,
+      "value": "public"
+    },
+    "AUTO_READ_STATUS": {
+      "description": "make it true if you want bot to view status",
+      "required": false,
+      "value": ""
+    },
+    "ALWAYS_ONLINE": {
+      "description": "make it true if you want bot to show always online",
+      "required": false,
+      "value": ""
     
-},
-
-     "buildpacks": [
-        {
-            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-        }
-     ],
-  "stack": "heroku-24"
+    },
+    "PREFIX": {
+      "description": "Your Bot Prefix default (.)",
+      "required": false,
+      "value": ""
+    }
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
 }
