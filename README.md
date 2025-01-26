@@ -54,6 +54,7 @@
 ## DEPLOYMENT METHODS
 3. ## Deploy to Koyeb ↓
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=romek-xd&repository=ROMEKTRICKS%2FROMEK-XD-V2&branch=main&builder=dockerfile&instance_type=free&env%5BSESSION_ID%5D=&env%5BAUTO_READ_STATUS%5D=true)
+
 4. ## Deploy to RENDER ↓
 
 <a href="https://dashboard.render.com/" target="blank"><img align="center" src="https://telegra.ph/file/c15e952f017c10e12f431.jpg" width="100" height="20" alt="Deploy bot"/></a>
