@@ -18,16 +18,6 @@
   </a>
 </div>
 
----
-
-## 🎥 **MY YOUTUBE CHANNEL**  
-<div align="center" style="border: 2px solid #FF4500; padding: 5px; border-radius: 5px; width: 150px; margin: auto;">
-  <a href="https://youtube.com/@romek-xd9" style="text-decoration: none;">
-    <p style="color: #FF4500; font-size: 10px; font-weight: bold; text-align: center;">ROME-XD YouTube Channel</p>
-  </a>
-</div>
-
----
 
 ## 🚀 Deployment Steps  
 
