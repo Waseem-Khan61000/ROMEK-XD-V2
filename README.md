@@ -24,7 +24,7 @@
   <a href="https://github.com/ROMEKTRICKS/ROMEK-XD-V2/fork" target="_blank">
     <img alt="Fork Repo" src="https://img.shields.io/badge/🍴%20FORK%20THIS%20REPO-black?style=for-the-badge&logo=github&logoColor=white" width="300">
   </a>  <hr style="border-top: 2px solid #3F00FF;">  <h3>2️⃣ Deploy Using Session ID (Pair Code Login)</h3>
-  <a href="[https://romex-pair-code.onrender.com/)]" target="_blank">
+  <a href="[https://romex-pair-code.onrender.com/)" target="_blank">
     <img alt="Pair Code Login" src="https://img.shields.io/badge/🔑%20PAIR%20CODE%20LOGIN-%2300BFFF?style=for-the-badge&logo=link&logoColor=white" width="300">
   </a>  <hr style="border-top: 2px solid #3F00FF;">  <h3>3️⃣ Deployment Options</h3>  <h4>Deploy to PANEL</h4>
   <a href="https://panel.solarhosting.cc" target="_blank">
