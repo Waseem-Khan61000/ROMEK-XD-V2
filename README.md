@@ -41,10 +41,11 @@
 <a href="https://app.koyeb.com/deploy?name=romek-xd-v2&repository=ROMEKTRICKS%2FROMEK-XD-V2&branch=main&builder=dockerfile&instance_type=free&env%5BSESSION_ID%5D=add your session id&env%5BAUTO_STATUS_REACT%5D=true&env%5BAUTO_READ_STATUS%5D=true&env%5BOWNER_NUMBER%5D=owner numbers" target="_blank">
   <img alt="Deploy to Koyeb" src="https://img.shields.io/badge/🔥%20Deploy%20Now-ff0000?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000" width="250">
 </a>
-  </a>  <h4>Deploy to Render</h4>
-  <a href="https://dashboard.render.com/" target="_blank">
-    <img src="https://telegra.ph/file/c15e952f017c10e12f431.jpg" alt="Deploy to Render" width="150" style="border-radius: 8px;">
-  </a>  <h4>Deploy to Heroku</h4>
+</a> <h4>🚀 Deploy to Render</h4>
+<a href="https://dashboard.render.com/" target="_blank">
+  <img src="https://img.shields.io/badge/🚀%20Deploy%20to%20Render-6a11cb?style=for-the-badge&logo=render&logoColor=white&labelColor=2575fc" alt="Deploy to Render" width="300">
+</a>
+  <h4>Deploy to Heroku</h4>
   <a href="https://dashboard.heroku.com/new?template=https://github.com/ROMEKTRICKS/ROMEK-XD-V2" target="_blank">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku">
   </a>
