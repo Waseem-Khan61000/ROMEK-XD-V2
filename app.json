@@ -15,6 +15,12 @@
             "description": "true or false.",
             "required": true,
              "value": "true"
+             }, 
+
+    "AUTO_STATUS_REACT": {
+      "description": "make it true for automatic status reaction or like.",
+      "required": true,
+      "value": "true"
         },
         "MODE": {
             "description": "public or private.",
