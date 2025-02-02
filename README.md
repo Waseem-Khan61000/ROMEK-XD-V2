@@ -43,7 +43,7 @@
 </a>
 </a> <h4>🚀 Deploy to Render</h4>
 <a href="https://dashboard.render.com/" target="_blank">
-  <img src="https://img.shields.io/badge/🚀%20Deploy%20to%20Render-6a11cb?style=for-the-badge&logo=render&logoColor=white&labelColor=2575fc" alt="Deploy to Render" width="300">
+  <img src="https://img.shields.io/badge/🚀%20Deploy%20to%20Render-6a11cb?style=for-the-badge&logo=render&logoColor=white&labelColor=2575fc" alt="Deploy to Render" width="250">
 </a>
   <h4>Deploy to Heroku</h4>
   <a href="https://dashboard.heroku.com/new?template=https://github.com/ROMEKTRICKS/ROMEK-XD-V2" target="_blank">
