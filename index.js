@@ -1,13 +1,18 @@
 const {
-default: makeWASocket,
-useMultiFileAuthState,
-DisconnectReason,
-jidNormalizedUser,
-getContentType,
-fetchLatestBaileysVersion,
-Browsers
+    default: makeWASocket,
+    useMultiFileAuthState,
+    DisconnectReason,
+    getContentType,
+    downloadContentFromMessage,
+    fetchLatestBaileysVersion,
+    Browsers,
+    jidNormalizedUser,
+    jidDecode,
+    makeInMemoryStore,
+    generateWAMessageFromContent,
+    prepareWAMessageMedia,
+    proto
 } = require('@whiskeysockets/baileys')
-
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions')
 const fs = require('fs')
 const P = require('pino')
@@ -82,6 +87,17 @@ mek.message = (getContentType(mek.message) === 'ephemeralMessage') ? mek.message
 if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_READ_STATUS === "true"){
 await conn.readMessages([mek.key])
 }
+if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REACT === "true"){
+    const jawadlike = await conn.decodeJid(conn.user.id);
+    const emojis = ['❤️', '💸', '😇', '🍂', '💥', '💯', '🔥', '💫', '💎', '💗', '🤍', '🖤', '👀', '🙌', '🙆', '🚩', '🥰', '💐', '😎', '🤎', '✅', '🫀', '🧡', '😁', '😄', '🌸', '🕊️', '🌷', '⛅', '🌟', '🗿', '🇮🇳', '💜', '💙', '🌝', '🖤', '💚'];
+    const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
+    await conn.sendMessage(mek.key.remoteJid, {
+      react: {
+        text: randomEmoji,
+        key: mek.key,
+      } 
+    }, { statusJidList: [mek.key.participant, jawadlike] });
+  }
 const m = sms(conn, mek)
 const type = getContentType(mek.message)
 const content = JSON.stringify(mek.message)
@@ -132,7 +148,18 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
                 return conn.sendMessage(jid, { audio: await getBuffer(url), caption: caption, mimetype: 'audio/mpeg', ...options }, { quoted: quoted, ...options })
               }
             }
-
+conn.decodeJid = jid => {
+    if (!jid) return jid;
+    if (/:\d+@/gi.test(jid)) {
+      let decode = jidDecode(jid) || {};
+      return (
+        (decode.user &&
+          decode.server &&
+          decode.user + '@' + decode.server) ||
+        jid
+      );
+    } else return jid;
+  };
 //===================================work-type========================================= 
 if(!isOwner && config.MODE === "private") return
 if(!isOwner && isGroup && config.MODE === "inbox") return
@@ -180,8 +207,3 @@ app.listen(port, () => console.log(`Server listening on port http://localhost:${
 setTimeout(() => {
 connectToWA()
 }, 4000);  
-
-
-
-
-
