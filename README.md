@@ -39,7 +39,7 @@
 </a>
 <h3>🚀 Deploy to Koyeb</h3>
 <a href="https://app.koyeb.com/deploy?name=romek-xd-v2&repository=ROMEKTRICKS%2FROMEK-XD-V2&branch=main&builder=dockerfile&instance_type=free&env%5BSESSION_ID%5D=add your session id&env%5BAUTO_STATUS_REACT%5D=true&env%5BAUTO_READ_STATUS%5D=true&env%5BOWNER_NUMBER%5D=owner numbers" target="_blank">
-  <img alt="Deploy to Koyeb" src="https://img.shields.io/badge/🔥%20Deploy%20Now-ff0000?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000" width="300">
+  <img alt="Deploy to Koyeb" src="https://img.shields.io/badge/🔥%20Deploy%20Now-ff0000?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000" width="250">
 </a>
   </a>  <h4>Deploy to Render</h4>
   <a href="https://dashboard.render.com/" target="_blank">
